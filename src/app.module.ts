@@ -16,9 +16,9 @@ import { ProjectModule } from './project/project.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: // server username,
-      password: // server password,
-      database: //database name,
+      username: 'postgres',
+      password: 'linksyswith3com',
+      database: 'employeemanagment',
       entities: ["dist/**/*.entity{.ts,.js}"],
       synchronize: true
     }),
